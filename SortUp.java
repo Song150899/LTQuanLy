@@ -1,0 +1,1 @@
+import java.util.Comparator;public class SortUp implements Comparator<Students> {    @Override    public int compare(Students o1, Students o2) {        if (o1.getScores() > o2.getScores()) {            return -1;        } else {            return 1;        }    }}
